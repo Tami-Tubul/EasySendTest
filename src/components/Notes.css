@@ -1,0 +1,22 @@
+#notes-page{
+  position: fixed;
+}
+
+#note-control {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    z-index: 1;
+}
+
+.note-box {
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .note-box.dragging {
+    cursor: grabbing;
+    background-color: lightblue;
+  }
+  
